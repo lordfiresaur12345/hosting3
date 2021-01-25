@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+} 
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    /* width: 100%; */
+    background-color: lightblue;
+    opacity: 0.9;
+    border-radius: 9px;
+    box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.1);
+}
+/* .box td{
+    width: 100%;
+} */
+.box p , .box ul{
+    background-color: white;
+    opacity: 0.9;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.1);
+    
+    text-align: left;
+    color: black;
+}
+.un-poco-de-todo{
+    height: 100vh;
+    padding-top: 8%;
+}
+/* box */
+.box {
+    margin: 0% auto;
+    margin-bottom: 2%;
+    max-width: 80%;
+}
+
+img {
+    float: right;
+    display: block;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.1);
+}
+
+.box ul{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    color: black;
+    padding-left: 40px;
+    box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.1);
+}
+/* Footer y header */
+.site-footer, .site-header{
+  background-color:#26272b;
+  /* padding:45px 0 20px; */
+  font-size:18px;
+  line-height:24px;
+  color:rgba(255, 255, 255, 0.8);
+}
+.frow{
+    padding: 2%;
+    width: 50%;
+    margin: 0 auto;
+}
+.focopy{
+    /* width: 20%; */
+    margin: 0 auto;
+    text-align: center;
+}
+.focopy a{
+    text-transform: uppercase;
+    padding: 0 4%;
+    text-decoration: none;
+    color: #FFF;
+}
+.focontainer{
+    margin: 0 auto;
+}
+.copyright-text{
+    margin: 0 auto;
+}
+
+/* header */
+.site-header{
+    
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.site-header a:hover{
+    border-bottom: 2px solid #FFF;
+    
+}
